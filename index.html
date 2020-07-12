@@ -17,11 +17,13 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
       rel="stylesheet" />
 </head>
-<body>
-  <div class="container-fluid register py-5 py-md-0">
+<body class="register py-2 py-md-3">
+  <div class="container-fluid py-5 py-md-0">
     <div class="row">
         <div class="col-12 register-left caption">
-            <img src="https://image.ibb.co/n7oTvU/logo_white.png" class="img-fluid" id="image" alt=""/>
+          <a href="./index.html">
+            <img src="https://image.ibb.co/n7oTvU/logo_white.png" class="img-fluid" id="logoImage" alt="logo"/>
+          </a>
             <h3>Welcome</h3>
             <p class="py-3 py-md-0 font-weight-lighter">You are 30 seconds away from earning your own money!</p>
         </div>
@@ -30,7 +32,7 @@
               <div class="row py-3 py-md-0">
                 <div class="col-9 mx-auto">
                   <div class="form-group">
-                      <input type="eamil" class="form-control" placeholder="Your Email" value="" />
+                      <input type="eamil" class="form-control autofocus" placeholder="Your Email" value="" />
                   </div>
                 </div>
                 <div class="col-9 mx-auto">
@@ -40,12 +42,16 @@
                 </div>
                 <div class="col-9 mx-auto">
                   <div class="form-group">
+                    <a href="./index.html">
                       <input type="submit" class="btn btn-danger form-control" value="Login" />
+                    </a>
+                    <div class="text-white text-center">
+                      <small>new?.. <a href="./pages/sign-up.html">Register</a></small>
+                    </div>
                   </div>
                 </div><br/>
               </div>
             </form>
-      <!-- </div> -->
     </div>
   </div>
 </body>
