@@ -14,7 +14,7 @@ a, a:hover {
   text-decoration: none;
 }
 a:hover {
-  color: rgb(219, 13, 13);
+  color: rgb(230, 195, 195);
 }
 .navbar-toggler {
     outline: none !important;
