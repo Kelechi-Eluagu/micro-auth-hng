@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta name="description" content="photography, an art of living" />
     <meta name="keywords" content="design, photo, graphics, photography" />
-    <title>photography | home</title>
+    <title>authenticate | dashboard</title>
     <link href = "../assets/images/plane.png" rel="icon" type="image/icon">
     <!-- stylesheets -->
     <link rel="stylesheet" type="text/css" href="../assets/css/font-awesome/css/font-awesome.min.css" />
@@ -23,7 +23,8 @@
 
     <!-- Sidebar -->
     <div class="register text-white border-right" id="sidebar-wrapper">
-      <div class="sidebar-heading">Micro-auth api</div>
+      <a class="navbar-brand sidebar-heading font-italic" href="../index.html"><small>authenticate</small></a>
+      <!-- <div class="sidebar-heading">authenticate</div> -->
       <div class="list-group">
         <a href="#" class="list-group-item register text-white list-active">Dashboard</a>
         <a href="#" class="list-group-item register text-white">Shortcuts</a>
@@ -52,26 +53,63 @@
           <div class="row ">
             <h6 class="col-4"><i class="fa fa-bell"></i>Notifications</h6>
             <h6 class="col-4"><i class="fa fa-cog"></i>Settings</h6>
-            <h6 class="col-4"><i class="fa fa-sign-out"></i> Logout</h6>
+            <h6 class="col-4"><i class="fa fa-sign-out"></i>Logout</h6>
           </div>
         </div>
         <!-- <hr class="w-100"/> -->
       </div>
-      <section class="bg-light">
+      <section class="container-fluid bg-light">
         <div class="row p-5">
-          <div class="col-3 col-md-4">
-            <div class="card" style="width: 15rem;">
-              <div class="card-body">
-                <div class="col-12 row mt-3">
-                  <div class="col-4">
-                    <i class="fa fa-server fa-2x"></i>
+          <div class="col-md-12">
+            <!-- first card -->
+            <div class="col-12 col-md-3">
+              <div class="card shadow" style="width: 15rem;">
+                <div class="card-body">
+                  <div class="col-12 row mt-3">
+                    <div class="col-4">
+                      <i class="fa fa-user fa-2x"></i>
+                    </div>
+                    <div class="col-8 text-right">
+                      <h6 class="mb-0 pb-0">Users<br><span class="font-weight-bold dashboard-count">20</span></h6>
+                    </div>
+                    <hr class="w-100">
                   </div>
-                  <div class="col-8">
-                    <h6 class="mb-0 pb-0">Capacity<br><span class="font-weight-bold">105GB</span></h6>
-                  </div>
-                  <hr class="w-100">
+                  <a href="#"><i class="fa fa-refresh text-center"></i>&nbsp; Check for updates</a>
                 </div>
-                <a href="#"><i class="fa fa-refresh"></i>&nbsp; Check for updates</a>
+              </div>
+            </div>
+            <!-- second row -->
+            <div class="col-12 col-md-3 mt-5 mt-md-3">
+              <div class="card shadow" style="width: 15rem;">
+                <div class="card-body">
+                  <div class="col-12 row mt-3">
+                    <div class="col-4">
+                      <i class="fa fa-user fa-2x"></i>
+                    </div>
+                    <div class="col-8 text-right">
+                      <h6 class="mb-0 pb-0">Users<br><span class="font-weight-bold dashboard-count">20</span></h6>
+                    </div>
+                    <hr class="w-100">
+                  </div>
+                  <a href="#"><i class="fa fa-refresh text-center"></i>&nbsp; Check for updates</a>
+                </div>
+              </div>
+            </div>
+            <!-- third card -->
+            <div class="col-12 col-md-3 mt-5 mt-md-3">
+              <div class="card shadow" style="width: 15rem;">
+                <div class="card-body">
+                  <div class="col-12 row mt-3">
+                    <div class="col-4">
+                      <i class="fa fa-user fa-2x"></i>
+                    </div>
+                    <div class="col-8 text-right">
+                      <h6 class="mb-0 pb-0">Users<br><span class="font-weight-bold dashboard-count">20</span></h6>
+                    </div>
+                    <hr class="w-100">
+                  </div>
+                  <a href="#"><i class="fa fa-refresh text-center"></i>&nbsp; Check for updates</a>
+                </div>
               </div>
             </div>
           </div>
