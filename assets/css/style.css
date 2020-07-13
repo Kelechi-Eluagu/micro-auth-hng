@@ -16,9 +16,15 @@ a, a:hover {
 a:hover {
   color: rgb(230, 195, 195);
 }
+.list-group-item:hover {
+  color: #000 !important;
+}
 .navbar-toggler {
     outline: none !important;
     border: none;
+}
+.list-active {
+  color: #000 !important;
 }
 /* sidebar */
 #wrapper {
