@@ -3,7 +3,7 @@ $("#menu-toggle").click(function(e) {
     e.preventDefault();
     $("#wrapper").toggleClass("toggled");
 });
-$('.dashboar-count').each(function () {
+$('.dashboard-count').each(function () {
     $(this).prop('Counter',0).animate({
         Counter: $(this).text()
     }, {
