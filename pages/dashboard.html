@@ -1,143 +1,341 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <meta name="description" content="photography, an art of living" />
-    <meta name="keywords" content="design, photo, graphics, photography" />
-    <title>authenticate | dashboard</title>
-    <link href = "../assets/images/plane.png" rel="icon" type="image/icon">
-    <!-- stylesheets -->
-    <link rel="stylesheet" type="text/css" href="../assets/css/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="../assets/css/responsiveness.css" />
-    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="../assets/css/style.css" />
-    <!-- Google fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
-      rel="stylesheet" />
-</head>
-<body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="photography, an art of living" />
+		<meta name="keywords" content="design, photo, graphics, photography" />
+		<title>authenticate | dashboard</title>
+		<link href="../assets/images/plane.png" rel="icon" type="image/icon" />
+		<!-- stylesheets -->
+		<link rel="stylesheet" type="text/css" href="../assets/css/font-awesome/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="../assets/css/responsiveness.css" />
+		<link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="../assets/css/style.css" />
+		<!-- Google fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+	</head>
+	<body>
+		<section class="d-flex" id="wrapper">
+			<!-- Sidebar -->
+			<div class="register text-white border-right" id="sidebar-wrapper">
+				<a class="navbar-brand sidebar-heading font-italic" href="../index.html"><small>authenticate</small></a>
+				<!-- <div class="sidebar-heading">authenticate</div> -->
+				<div class="list-group">
+					<a href="#" class="list-group-item register text-white list-active">Dashboard</a>
+					<a href="#profile" class="list-group-item register text-white">Profile</a>
+					<a href="#" class="list-group-item register text-white">Overview</a>
+					<a href="#" class="list-group-item register text-white">Details</a>
+					<a href="#" class="list-group-item register text-white">Contact Us</a>
+				</div>
+			</div>
 
-  <section class="d-flex" id="wrapper">
+			<!-- Page Content -->
+			<div id="page-content-wrapper">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom d-block d-md-nne">
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon" id="menu-toggle"></span>
+					</button>
+				</nav>
 
-    <!-- Sidebar -->
-    <div class="register text-white border-right" id="sidebar-wrapper">
-      <a class="navbar-brand sidebar-heading font-italic" href="../index.html"><small>authenticate</small></a>
-      <!-- <div class="sidebar-heading">authenticate</div> -->
-      <div class="list-group">
-        <a href="#" class="list-group-item register text-white list-active">Dashboard</a>
-        <a href="#" class="list-group-item register text-white">Profile</a>
-        <a href="#" class="list-group-item register text-white">Overview</a>
-        <a href="#" class="list-group-item register text-white">Details</a>
-        <a href="#" class="list-group-item register text-white">Contact Us</a>
+				<!-- page content -->
+				<div class="row py-0 px-2 px-md-4 pt-2">
+					<div class="col-12 col-md-5">
+						<h4 class="px-4 px-md-0 mb-0">Welcome To Stage 7<i class="fa fa-smile-o pl-2"></i></h4>
+					</div>
+					<div class="col-6 ml-auto d-none d-lg-block">
+						<div class="row">
+							<h6 class="col-4"><i class="fa fa-bell"></i>Notifications</h6>
+							<h6 class="col-4"><i class="fa fa-cog"></i>Settings</h6>
+							<h6 class="col-4"><i class="fa fa-sign-out"></i>Logout</h6>
+						</div>
+					</div>
+					<!-- <hr class="w-100"/> -->
+				</div>
+				<section class="bg-light">
+					<div class="col-12">
+						<div class="d-lg-flex p-2 p-lg-3 mx-auto">
+							<!-- first card -->
+							<div class="col-12 col-lg-3 mt-5 mt-md-3">
+								<div class="card shadow">
+									<div class="card-body">
+										<div class="col-12 row mt-3">
+											<div class="col-4">
+												<i class="fa fa-user fa-2x"></i>
+											</div>
+											<div class="col-8 text-right">
+												<h6 class="mb-0 pb-0">
+													Users<br /><span class="font-weight-bold dashboard-count">20</span>
+												</h6>
+											</div>
+											<hr class="w-100" />
+										</div>
+										<a href="#"><i class="fa fa-refresh text-center"></i>&nbsp; List all users</a>
+									</div>
+								</div>
+							</div>
+							<!-- second card -->
+							<div class="col-12 col-lg-3 mt-5 mt-md-3">
+								<div class="card shadow">
+									<div class="card-body">
+										<div class="col-12 row mt-3">
+											<div class="col-4">
+												<i class="fa fa-key fa-2x"></i>
+											</div>
+											<div class="col-8 text-right">
+												<h6 class="mb-0 pb-0">
+													APIs<br /><span class="font-weight-bold dashboard-count">1000</span>
+												</h6>
+											</div>
+											<hr class="w-100" />
+										</div>
+										<a href="#"><i class="fa fa-eye text-center"></i>&nbsp; View APIs</a>
+									</div>
+								</div>
+							</div>
+							<!-- third card -->
+							<div class="col-12 col-lg-3 mt-5 mt-md-3">
+								<div class="card shadow">
+									<div class="card-body">
+										<div class="col-12 row mt-3">
+											<div class="col-4">
+												<i class="fa fa-gears fa-2x"></i>
+											</div>
+											<div class="col-8 text-right">
+												<h6 class="mb-0 pb-0">
+													Services<br /><span class="font-weight-bold dashboard-count"
+														>5</span
+													>
+												</h6>
+											</div>
+											<hr class="w-100" />
+										</div>
+										<a href="#"><i class="fa fa-gear text-center"></i>&nbsp; All our services</a>
+									</div>
+								</div>
+							</div>
+							<!-- fourth card -->
+							<div class="col-12 col-lg-3 mt-5 mt-md-3">
+								<div class="card shadow">
+									<div class="card-body">
+										<div class="col-12 row mt-3">
+											<div class="col-4">
+												<i class="fa fa-warning fa-2x"></i>
+											</div>
+											<div class="col-8 text-right">
+												<h6 class="mb-0 pb-0">
+													Updates<br /><span class="font-weight-bold dashboard-count">2</span>
+												</h6>
+											</div>
+											<hr class="w-100" />
+										</div>
+										<a href="#"><i class="fa fa-edit text-center"></i>&nbsp; Check for updates</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- profile section -->
+				<div class="container-fluid emp-profile bg-light" id="profile">
+					<form method="post">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="profile-img">
+									<img
+										src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52y5aInsxSm31CvHOFHWujqUx_wWTS9iM6s7BAm21oEN_RiGoog"
+										class="rounded img-fluid"
+										alt=""
+									/>
+									<div class="file btn btn-lg btn-primary">
+										Change Photo
+										<input type="file" name="file" />
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 ml-5 ml-md">
+								<div class="profile-head">
+									<h5>
+										Kelechi Eluagu
+									</h5>
+									<p class="proile-rating">HNG : <span>intern</span></p>
+									<ul class="nav nav-tabs">
+										<li class="nav-item">
+											<a class="nav-link active">About</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="row ml-5 ml-md-5">
+							<div class="col-md-8">
+								<div class="tab-content profile-tab" id="myTabContent">
+									<div
+										class="tab-pane fade show active"
+										id="home"
+										role="tabpanel"
+										aria-labelledby="home-tab"
+									>
+										<div class="row">
+											<div class="col-md-6">
+												<label>Username</label>
+											</div>
+											<div class="col-md-6">
+												<p>kelly_</p>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-6">
+												<label>Name</label>
+											</div>
+											<div class="col-md-6">
+												<p>Kelechi Eluagu</p>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-6">
+												<label>Email</label>
+											</div>
+											<div class="col-md-6">
+												<p>kellyeluagu@gmail.com</p>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-6">
+												<label>Phone</label>
+											</div>
+											<div class="col-md-6">
+												<p>+234 810 718 7442</p>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-6">
+												<label>Profession</label>
+											</div>
+											<div class="col-md-6">
+												<p>Web Developer</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+        </div>
+        <!-- contact us -->
+        <div >
+
+        </div>
+        <!-- our team -->
+        <section class="bg-light pb-2 pb-md-5">
+					<div class="col-12">
+            <h4 class="text-center">Our Team</h4>
+						<div class="d-lg-flex p-2 p-lg-3 mx-auto">
+							<!-- first card -->
+							<div class="col-12 col-lg-3 mt-5 mt-md-3">
+								<div class="card shadow">
+									<div class="card-body">
+										<div class="col-12 row mt-3">
+											<div class="col-4">
+												<a href="https://twitter.com/kelly_eluagu"><i class="fa fa-twitter fa-2x"></i></a>
+											</div>
+											<div class="col-8 text-right">
+												<h6 class="mb-0 pb-0">
+													Kelechi Eluagu
+												</h6>
+											</div>
+											<hr class="w-100" />
+										</div>
+										<h6>Frontend Web Developer</h6>
+									</div>
+								</div>
+							</div>
+							<!-- second card -->
+							<div class="col-12 col-lg-3 mt-5 mt-md-3">
+								<div class="card shadow">
+									<div class="card-body">
+										<div class="col-12 row mt-3">
+											<div class="col-4">
+												<a href="https://twitter.com/codemon_"><i class="fa fa-twitter fa-2x"></i></a>
+											</div>
+											<div class="col-8 text-right">
+												<h6 class="mb-0 pb-0">
+													Codemon_
+												</h6>
+											</div>
+											<hr class="w-100" />
+										</div>
+										<h6>Backend Web Developer</h6>
+									</div>
+								</div>
+							</div>
+							<!-- third card -->
+							<div class="col-12 col-lg-3 mt-5 mt-md-3">
+								<div class="card shadow">
+									<div class="card-body">
+										<div class="col-12 row mt-3">
+											<div class="col-4">
+												<a href=""><i class="fa fa-twitter fa-2x"></i></a>
+											</div>
+											<div class="col-8 text-right">
+												<h6 class="mb-0 pb-0">
+													Sage
+												</h6>
+											</div>
+											<hr class="w-100" />
+										</div>
+										<h6>Backend Web Developer</h6>
+									</div>
+								</div>
+							</div>
+							<!-- fourth card -->
+							<div class="col-12 col-lg-3 mt-5 mt-md-3">
+								<div class="card shadow">
+									<div class="card-body">
+										<div class="col-12 row mt-3">
+											<div class="col-4">
+												<a href=""><i class="fa fa-twitter fa-2x"></i></a>
+											</div>
+											<div class="col-8 text-right">
+												<h6 class="mb-0 pb-0">
+													Sunny Jones
+												</h6>
+											</div>
+											<hr class="w-100" />
+										</div>
+										<h6>Backend Web Developer</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
       </div>
-    </div>
+		</section>
 
-    <!-- Page Content -->
-    <div id="page-content-wrapper">
+		<footer class="bg-dark py-2 text-center text-white">
+			<div class="col-12">
+				<h6>
+					&copy;
+					<script>
+						document.write(new Date().getFullYear());
+					</script>
+					HNG | authenticate
+				</h6>
+			</div>
+		</footer>
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom d-block d-md-nne">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon" id="menu-toggle"></span>
-        </button>
-      </nav>
-
-      <!-- page content -->
-      <div class="row py-0 px-2 px-md-4 pt-2">
-        <div class="col-12 col-md-5">
-          <h4 class="px-4 px-md-0 mb-0">Dashboard</h4>
-        </div>
-        <div class="col-6 ml-auto d-none d-lg-block">
-          <div class="row ">
-            <h6 class="col-4"><i class="fa fa-bell"></i>Notifications</h6>
-            <h6 class="col-4"><i class="fa fa-cog"></i>Settings</h6>
-            <h6 class="col-4"><i class="fa fa-sign-out"></i>Logout</h6>
-          </div>
-        </div>
-        <!-- <hr class="w-100"/> -->
-      </div>
-      <section class="bg-light">
-        <div class="col-12">
-          <div class="d-lg-flex p-2 p-lg-3 mx-auto">
-            <!-- first card -->
-            <div class="col-12 col-lg-3 mt-5 mt-md-3">
-              <div class="card shadow">
-                <div class="card-body">
-                  <div class="row mt-3">
-                    <div class="col-4">
-                      <i class="fa fa-user fa-2x"></i>
-                    </div>
-                    <div class="col-8 text-right">
-                      <h6 class="mb-0 pb-0">Users<br><span class="font-weight-bold dashboard-count">20</span></h6>
-                    </div>
-                    <hr class="w-100">
-                  </div>
-                  <a href="#"><i class="fa fa-refresh text-center"></i>&nbsp; Check for updates</a>
-                </div>
-              </div>
-            </div>
-            <!-- second card -->
-            <div class="col-12 col-lg-3 mt-5 mt-md-3">
-              <div class="card shadow">
-                <div class="card-body">
-                  <div class="col-12 row mt-3">
-                    <div class="col-4">
-                      <i class="fa fa-user fa-2x"></i>
-                    </div>
-                    <div class="col-8 text-right">
-                      <h6 class="mb-0 pb-0">Users<br><span class="font-weight-bold dashboard-count">20</span></h6>
-                    </div>
-                    <hr class="w-100">
-                  </div>
-                  <a href="#"><i class="fa fa-refresh text-center"></i>&nbsp; Check for updates</a>
-                </div>
-              </div>
-            </div>
-            <!-- third card -->
-            <div class="col-12 col-lg-3 mt-5 mt-md-3">
-              <div class="card shadow">
-                <div class="card-body">
-                  <div class="col-12 row mt-3">
-                    <div class="col-4">
-                      <i class="fa fa-user fa-2x"></i>
-                    </div>
-                    <div class="col-8 text-right">
-                      <h6 class="mb-0 pb-0">Users<br><span class="font-weight-bold dashboard-count">20</span></h6>
-                    </div>
-                    <hr class="w-100">
-                  </div>
-                  <a href="#"><i class="fa fa-refresh text-center"></i>&nbsp; Check for updates</a>
-                </div>
-              </div>
-            </div>
-            <!-- fourth card -->
-            <div class="col-12 col-lg-3 mt-5 mt-md-3">
-              <div class="card shadow">
-                <div class="card-body">
-                  <div class="col-12 row mt-3">
-                    <div class="col-4">
-                      <i class="fa fa-user fa-2x"></i>
-                    </div>
-                    <div class="col-8 text-right">
-                      <h6 class="mb-0 pb-0">Users<br><span class="font-weight-bold dashboard-count">20</span></h6>
-                    </div>
-                    <hr class="w-100">
-                  </div>
-                  <a href="#"><i class="fa fa-refresh text-center"></i>&nbsp; Check for updates</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  </section>
-
-  <!-- script tags -->
-  <script src="../assets/js/popper.js"></script>
-  <script src="../assets/js/bootstrap.js"></script>
-  <script src="../assets/js/jquery.js"></script>
-  <script src="../assets/js/script.js"></script>
-</body>
+		<!-- script tags -->
+		<script src="../assets/js/popper.js"></script>
+		<script src="../assets/js/bootstrap.js"></script>
+		<script src="../assets/js/jquery.js"></script>
+		<script src="../assets/js/script.js"></script>
+	</body>
 </html>
