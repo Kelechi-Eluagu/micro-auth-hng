@@ -254,7 +254,9 @@ a:hover {
 }
 
 /* sms verification styling */
-
+.notifi:hover {
+  color: red
+}
 
 
 @media (max-width: 600px) {
