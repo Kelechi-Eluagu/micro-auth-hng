@@ -253,6 +253,10 @@ a:hover {
   color: #0062cc;
 }
 
+/* sms verification styling */
+
+
+
 @media (max-width: 600px) {
   #kayPix {
     height: 120px;
